@@ -9,7 +9,7 @@ export const Bio = {
     "Tech enthusiast with a knack for problem-solving and a passion for crafting elegant software solutions. Committed to driving innovation and making a meaningful impact in the digital world.",
   github: "https://github.com/san1sk",
   resume:
-    "https://drive.google.com/file/d/1fyj_-nf5HBaiRSkpXVyhkfen9EV7jUvE/view?usp=sharing",
+    "https://drive.google.com/file/d/19d_bXVi1uQhs3evZmWYGa0MtZIjTDU1r/view?usp=sharing",
   linkedin: "",
   twitter: "",
   insta: "",
