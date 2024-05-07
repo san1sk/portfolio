@@ -9,8 +9,8 @@ export const Bio = {
     "Tech enthusiast with a knack for problem-solving and a passion for crafting elegant software solutions. Committed to driving innovation and making a meaningful impact in the digital world.",
   github: "https://github.com/san1sk",
   resume:
-    "https://drive.google.com/file/d/19d_bXVi1uQhs3evZmWYGa0MtZIjTDU1r/view?usp=sharing",
-  linkedin: "",
+    "",
+  linkedin: "https://www.linkedin.com/in/sanchit-khokhar-4084ab1a0/",
   twitter: "",
   insta: "",
   facebook: "",
@@ -141,6 +141,27 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    id: 0,
+    img: "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/uptricks.png",
+    role: "Full Stack Developer Intern",
+    company: "Uptricks Services Pvt. Ltd.",
+    date: "Feb 2024 - May 2024",
+    desc: `Developed and worked on User Authentication and User dashboard.
+    Worked on backend services, APIs, and databases.
+    Implemented responsive front-end interfaces using HTML, CSS, and JavaScript.
+    Gained hands-on experience with the MERN stack.`,
+    skills: [
+      "ReactJS",
+      "JavaScript",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+    ],
+    doc: "https://drive.google.com/file/d/1be6ocsENNLLTpOAwGDHDty4txB54pCUO/view?usp=sharing",
+  },
+
+
 ];
 
 export const education = [
@@ -176,6 +197,78 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "YourDrive",
+    date: "April 2024",
+    description:
+      "Created a File Storage App using NextJs Framework. It uses clerk for user authentication to login users and display their files. It displays files in either file card or table format. A user can Perform functions like Favouriting, Deleting and Restoring Fiels. Convex (BaaS) is used for storage of files and storing user information.",
+    image:
+      "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/your-drive.png",
+    tags: ["HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/san1sk/your-drive.git",
+    webapp: "https://your-drive.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Netflix Clone",
+    date: "July 2023",
+    description:
+    "Developed a Responsive netflix clone using html and css.",
+    image:
+    "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/Netflix-clone.png",
+    tags: [
+      "HTML",
+      "CSS",
+    ],
+    category: "web app",
+    github: "https://github.com/san1sk/Netflix-Clone",
+    webapp: "https://san1sk.github.io/Netflix-Clone/",
+  },
+  {
+    id: 3,
+    title: "Weather App",
+    date: "August 2023",
+    description:
+    "Created a weather app which fetches weather data from the OpenWeather API and the frontend is designed using HTML and CSS. It displays the current weather along with the wind speed and humidity ",
+    image:
+    "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/Weather-app.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/san1sk/WeatherApp",
+    webapp: "https://san1sk.github.io/WeatherApp/",
+  },
+  {
+    id: 2,
+    title: "Text Utility App",
+    date: "August 2023 - September 2023",
+    description:
+    "Developed my first react app which processes text and performs different functions on it. User can enter a text or paragraph and the text will be displayed below with word count and minutes read.",
+    image:
+      "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/textutils.png",
+      tags: [
+      "React", 
+      "HTML",
+      "CSS",
+    ],
+    category: "web app",
+    github: "https://github.com/san1sk/textutils",
+    webapp: "https://san1sk.github.io/textutils/",
+  },
+  {
+    id: 4,
+    title: "Money Tracker",
+    date: "October 2023",
+    description:
+    "Created a money-tracker web app using mern stack.It takes input the expense or the income and stores the data in the database(atlas MONGODB).The data is fetched from the database and is displayed to the user ",
+    image:
+    "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/money-tracker.png",
+    tags: ["React Js", "Express", "MongoDB", "Node JS","Render",],
+    category: "web app",
+    github: "https://github.com/san1sk/money-tracker",
+    webapp: "https://money-tracker-frontend-vel1.onrender.com/",
+  },
+  {
+    id: 5,
     title: "Microsoft Clone",
     date: "June 2023",
     description:
@@ -186,65 +279,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/san1sk/MS-clone.git",
     webapp: "https://san1sk.github.io/MS-clone/",
-  },
-  {
-    id: 1,
-    title: "Netflix Clone",
-    date: "July 2023",
-    description:
-      "Developed a Responsive netflix clone using html and css.",
-    image:
-      "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/Netflix-clone.png",
-    tags: [
-      "HTML",
-      "CSS",
-    ],
-    category: "web app",
-    github: "https://github.com/san1sk/Netflix-Clone",
-    webapp: "https://san1sk.github.io/Netflix-Clone/",
-  },
-  {
-    id: 2,
-    title: "Text Utility App",
-    date: "August 2023 - September 2023",
-    description:
-      "Developed my first react app which processes text and performs different functions on it. User can enter a text or paragraph and the text will be displayed below with word count and minutes read.",
-    image:
-      "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/textutils.png",
-    tags: [
-      "React", 
-      "HTML",
-      "CSS",
-    ],
-    category: "web app",
-    github: "https://github.com/san1sk/textutils",
-    webapp: "https://san1sk.github.io/textutils/",
-  },
-  {
-    id: 3,
-    title: "Weather App",
-    date: "August 2023",
-    description:
-      "Created a weather app which fetches weather data from the OpenWeather API and the frontend is designed using HTML and CSS. It displays the current weather along with the wind speed and humidity ",
-    image:
-      "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/Weather-app.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "web app",
-    github: "https://github.com/san1sk/WeatherApp",
-    webapp: "https://san1sk.github.io/WeatherApp/",
-  },
-  {
-    id: 4,
-    title: "Money Tracker",
-    date: "october 2023",
-    description:
-      "Created a money-tracker web app using mern stack.It takes input the expense or the income and stores the data in the database(atlas MONGODB).The data is fetched from the database and is displayed to the user ",
-    image:
-      "https://raw.githubusercontent.com/san1sk/MS-clone/main/images/money-tracker.png",
-    tags: ["React Js", "Express", "MongoDB", "Node JS","Render",],
-    category: "web app",
-    github: "https://github.com/san1sk/money-tracker",
-    webapp: "https://money-tracker-frontend-vel1.onrender.com/",
   },
 ];
 

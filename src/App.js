@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import Experience from "./components/Experience";
 
 
 const Body = styled.div`
@@ -37,6 +38,7 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
